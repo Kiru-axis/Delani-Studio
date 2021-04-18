@@ -18,3 +18,75 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* normal css */
+#aboutUs {
+  height: 100%;
+  width: 100%;
+}
+
+/* normal css */
+#services {
+  height: 100%;
+  width: 100%;
+  background-image: url("./assets/backgrounds/s_image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* what we do styling */
+/* jquery added desing class */
+.click-design {
+  text-align: center;
+  padding: 5% 0;
+}
+.click-design h4 {
+  font-size: 0.9rem;
+  font-weight: bolder;
+}
+/* jquery added development class */
+.click-development {
+  text-align: center;
+  padding: 5% 0;
+}
+.click-development h4 {
+  font-size: 0.9rem;
+  font-weight: bolder;
+}
+
+/* jquery added product class */
+.click-product {
+  text-align: center;
+  padding: 5% 0;
+}
+.click-product h4 {
+  font-size: 0.9rem;
+  font-weight: bolder;
+}
+/* portfolio styling */
+
+/* footer styling */
+/* normal css */
+.footer-section {
+  height: 100%;
+  width: 100%;
+  background-image: url("./assets/backgrounds/c_image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* form styling */
+/* normal css */
+form {
+  padding: 0 20%;
+  text-align: center;
+}
+textarea {
+  width: 100%;
+}
+
+.transparent-input {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
+}
