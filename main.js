@@ -7,10 +7,36 @@ $(document).ready(function () {
   $("#product").hide();
 
   //user interface
-  $("").click(function () {
+  //1. Design
+  $("div.img-text-1").click(function () {
     $("div.img-text-1").toggle();
     $("#design").hide();
   });
+  $("#design").click(function () {
+    $("div.img-text-1").toggle();
+    $("#design").hide();
+  });
+  //2 .Development
+  $("div.img-text-2").click(function () {
+    $("div.img-text-2").toggle();
+    $("#development").hide();
+  });
+  $("#development").click(function () {
+    $("div.img-text-2").toggle();
+    $("#development").hide();
+  });
+
+  //3. Product
+  $("div.img-text-3").click(function () {
+    $("div.img-text-3").toggle();
+    $("#product").hide();
+  });
+  $("#product").click(function () {
+    $("div.img-text-3").toggle();
+    $("#product").hide();
+  });
+
+  // js
   //design
   $("div.img-text-1").click(function () {
     $("#design").show();
@@ -20,8 +46,8 @@ $(document).ready(function () {
 
   //development
   $("div.img-text-2").click(function () {
-    $("#development").addClass("click-development");
     $("#development").show();
+    $("#development").addClass("click-development");
     $("div.img-text-2").hide();
   });
   //product
