@@ -59,6 +59,8 @@ $(document).ready(function () {
   //-------------------------------------
   //portfolio section
   $(".portfolioImg").addClass("hoverImg");
+
+  
   //--------------------------------------
   //form section
   $("form.user-input").submit(function (event) {

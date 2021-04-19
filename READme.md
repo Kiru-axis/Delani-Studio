@@ -28,6 +28,6 @@
 * bootstrap
 * javascript and jQuery
 ### Link
-[Live-link](https://kiru-axis.github.io/Delani-Studio/)
+[Live-link]()
 ### Author
 **Peter Kiru**
