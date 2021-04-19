@@ -11,6 +11,7 @@ $(document).ready(function () {
     $("#design").addClass("click-design");
     $(".img-1").hide();
   });
+  
   //development
   $(".img-2").click(function () {
     $("#development").addClass("click-development");
@@ -25,7 +26,7 @@ $(document).ready(function () {
   });
   //-------------------------------------
   //portfolio section
-  
+  $(".portfolioImg").addClass("hoverImg")
   //--------------------------------------
   //form section
   $("form.user-input").submit(function (event) {
@@ -37,6 +38,7 @@ $(document).ready(function () {
     $("#hisEmail").html(userEmail);
     $("#hisMessage").html(userMessage);
     $(".alert").show();
+    alert(`Hello ${userName} . we have recieved your message : ${userMessage}, and we thank you for reaching out to us.`);
     event.preventDefault();
   });
 });

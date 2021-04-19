@@ -1,4 +1,4 @@
-# Title: DELANI STUDIOS
+# DELANI STUDIOS
 ### Homepage
 * company name:Delani studios with the company Logo.
 ### About us section
