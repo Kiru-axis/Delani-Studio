@@ -36,12 +36,15 @@ body {
 }
 
 /* what we do styling */
+#whatWeDo{
+}
 /* jquery added desing class */
 .click-design {
   text-align: center;
   padding: 5% 0;
 }
 .click-design h4 {
+  text-align: center;
   font-size: 0.9rem;
   font-weight: bolder;
 }
@@ -65,6 +68,9 @@ body {
   font-weight: bolder;
 }
 /* portfolio styling */
+#portfolio{
+  padding: 0 10%;
+}
 
 /* footer styling */
 /* normal css */
@@ -90,3 +96,5 @@ textarea {
   background-color: rgba(0, 0, 0, 0.4);
   border: none;
 }
+
+/* jquery added product class */

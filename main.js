@@ -9,19 +9,23 @@ $(document).ready(function () {
   $(".img-1").click(function () {
     $("#design").show();
     $("#design").addClass("click-design");
+    $(".img-1").hide();
   });
   //development
   $(".img-2").click(function () {
     $("#development").addClass("click-development");
     $("#development").show();
+    $(".img-2").hide();
   });
   //product
   $(".img-3").click(function () {
     $("#product").show();
     $("#product").addClass("click-product");
+    $(".img-3").hide();
   });
   //-------------------------------------
   //portfolio section
+  
   //--------------------------------------
   //form section
   $("form.user-input").submit(function (event) {
