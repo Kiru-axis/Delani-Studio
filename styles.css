@@ -36,7 +36,18 @@ body {
 }
 
 /* what we do styling */
-#whatWeDo{
+.what-we-do {
+  padding: 0 10%;
+}
+
+.design {
+  max-width: 100%;
+}
+.development {
+  max-width: 100%;
+}
+.product {
+  max-width: 100%;
 }
 /* jquery added desing class */
 .click-design {
@@ -68,7 +79,7 @@ body {
   font-weight: bolder;
 }
 /* portfolio styling */
-#portfolio{
+#portfolio {
   padding: 0 10%;
 }
 
@@ -98,13 +109,12 @@ textarea {
 }
 
 /* jquery added product class */
-.hoverImg{
+.hoverImg {
   transition: 500ms ease-in-out;
-  
 }
-.hoverImg:hover{
+.hoverImg:hover {
   background-color: white;
   transform: scale(1.2);
   /* transform: translateY(-10px); */
-  opacity: .7;
+  opacity: 0.7;
 }
